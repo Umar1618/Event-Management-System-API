@@ -1,4 +1,8 @@
 # Event Management System
+See how it works 👇
+
+[![Recording](http://img.youtube.com/vi//0.jpg)](http://www.youtube.com/watch?v=)
+
 ## Prerequisites:
 1. Java Development Kit (JDK) installed on your machine (version 8 or higher).
 2. Apache Maven installed on your machine.
