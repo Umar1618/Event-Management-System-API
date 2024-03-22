@@ -1,7 +1,7 @@
 # Event Management System
 See how it works 👇
 
-[![Recording](http://img.youtube.com/vi//0.jpg)](http://www.youtube.com/watch?v=)
+[![Recording](http://img.youtube.com/vi/mx39YlsRhjc/0.jpg)](http://www.youtube.com/watch?v=mx39YlsRhjc&ab_channel=UmarFarook)
 
 ## Prerequisites:
 1. Java Development Kit (JDK) installed on your machine (version 8 or higher).
