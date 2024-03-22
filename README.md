@@ -33,22 +33,22 @@ Tech Stack and Database Selection Report
 
 1. Choice of Tech Stack:
 
-    Java: Java was chosen as the primary programming language due to its popularity, robustness, and extensive ecosystem of libraries and frameworks.
-    Spring Boot: Spring Boot was selected for its ease of use in developing and deploying production-grade Spring-based applications. It provides out-of-the-box features for building RESTful APIs, managing configurations, and handling dependencies.
-    Hibernate: Hibernate ORM was chosen for its powerful object-relational mapping capabilities, simplifying database interactions and providing portability across different database platforms.
-    MySQL: MySQL was chosen as the relational database management system due to its widespread adoption, robustness, and scalability. It is well-suited for applications with relational data models.
-    Swagger UI: Swagger UI was selected for its ability to automatically generate interactive API documentation, making it easier for developers to understand and consume the API endpoints.
-    Postman: Postman was chosen as the API testing tool for its user-friendly interface, comprehensive features for testing APIs, and ability to automate API testing workflows.
+    1. Java: Java was chosen as the primary programming language due to its popularity, robustness, and extensive ecosystem of libraries and frameworks.
+    2. Spring Boot: Spring Boot was selected for its ease of use in developing and deploying production-grade Spring-based applications. It provides out-of-the-box features for building RESTful APIs, managing configurations, and handling dependencies.
+    3. Hibernate: Hibernate ORM was chosen for its powerful object-relational mapping capabilities, simplifying database interactions and providing portability across different database platforms.
+    4. MySQL: MySQL was chosen as the relational database management system due to its widespread adoption, robustness, and scalability. It is well-suited for applications with relational data models.
+    5. Swagger UI: Swagger UI was selected for its ability to automatically generate interactive API documentation, making it easier for developers to understand and consume the API endpoints.
+    6. Postman: Postman was chosen as the API testing tool for its user-friendly interface, comprehensive features for testing APIs, and ability to automate API testing workflows.
 
-2. Design Decisions:
+3. Design Decisions:
 
-    Spring Boot: Spring Boot's convention-over-configuration approach allowed for rapid development without the need for extensive boilerplate code. Dependency injection and auto-configuration simplified the setup and management of application components.
-    Hibernate: Hibernate's object-relational mapping capabilities abstracted away the complexities of SQL queries, enabling developers to work with database entities using object-oriented paradigms.
-    MySQL: MySQL was chosen for its compatibility with Hibernate ORM and its ability to scale horizontally and vertically to accommodate growing data needs.
-    Swagger UI: Swagger UI was integrated into the application to provide developers with self-documenting APIs, reducing the need for manual documentation and improving API adoption and understanding.
-    Postman: Postman was utilised for comprehensive API testing, including functional testing, performance testing, and automated testing. Its ability to organise and execute test suites streamlined the testing process.
+    1. Spring Boot: Spring Boot's convention-over-configuration approach allowed for rapid development without the need for extensive boilerplate code. Dependency injection and auto-configuration simplified the setup and management of application components.
+    2. Hibernate: Hibernate's object-relational mapping capabilities abstracted away the complexities of SQL queries, enabling developers to work with database entities using object-oriented paradigms.
+    3. MySQL: MySQL was chosen for its compatibility with Hibernate ORM and its ability to scale horizontally and vertically to accommodate growing data needs.
+    4. Swagger UI: Swagger UI was integrated into the application to provide developers with self-documenting APIs, reducing the need for manual documentation and improving API adoption and understanding.
+    5. Postman: Postman was utilised for comprehensive API testing, including functional testing, performance testing, and automated testing. Its ability to organise and execute test suites streamlined the testing process.
 
-3. Addressing Challenges:
-
-    Integration with External APIs: Challenges were addressed by implementing robust error handling mechanisms to gracefully handle failures when calling external APIs. Asynchronous processing techniques, such as CompletableFuture or reactive programming, were used to minimise response times and ensure responsiveness.
-    API Documentation: Swagger UI was integrated to automatically generate API documentation, reducing the overhead of maintaining separate documentation files. Clear and concise documentation annotations were added to controller methods to improve readability and understanding.
+5. Addressing Challenges:
+    
+    1. Integration with External APIs: Challenges were addressed by implementing robust error handling mechanisms to gracefully handle failures when calling external APIs. Asynchronous processing techniques, such as CompletableFuture or reactive programming, were used to minimise response times and ensure responsiveness.
+    2. API Documentation: Swagger UI was integrated to automatically generate API documentation, reducing the overhead of maintaining separate documentation files. Clear and concise documentation annotations were added to controller methods to improve readability and understanding.
